@@ -229,10 +229,10 @@ If Kairo is useful, the best support is careful feedback and respectful architec
 
 | Channel | Link |
 | --- | --- |
-| GitHub | `https://github.com/levilyf/kairo` |
+| [GitHub](https://github.com/levilyf) | `https://github.com/levilyf/kairo` |
 | Website | `soon` |
-| Buy Me a Coffee | `https://animiso.lemonsqueezy.com/checkout` |
-| GitHub Sponsors | `https://github.com/sponsors/levilyf` |
+| [Buy Me a Coffee](https://animiso.lemonsqueezy.com/checkout) | `https://animiso.lemonsqueezy.com/checkout` |
+| [GitHub Sponsors](https://github.com/sponsors/levilyf) | `https://github.com/sponsors/levilyf` |
 
 ---
 
