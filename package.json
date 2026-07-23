@@ -1,0 +1,17 @@
+{
+  "name": "kairo",
+  "private": true,
+  "description": "Kairo — platform for building AI harnesses",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -ws --if-present",
+    "test": "npm run test -ws --if-present",
+    "typecheck": "npm run typecheck -ws --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

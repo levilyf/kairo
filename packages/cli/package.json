@@ -1,0 +1,41 @@
+{
+  "name": "@kairo/cli",
+  "version": "0.1.0",
+  "description": "Official kairo CLI — project init, provider setup, streaming chat, and one-shot runs via the Kairo Code harness. Thin entry point over @kairo/config, @kairo/app, @kairo/chat, and @kairo/harness-code.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "kairo": "./dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@kairo/config": "0.1.0",
+    "@kairo/app": "0.1.0",
+    "@kairo/chat": "0.1.0",
+    "@kairo/harness-code": "0.1.0"
+  },
+  "devDependencies": {
+    "@kairo/protocol-openai": "0.1.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

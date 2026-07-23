@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+*.log
+.vitest/
+
+# Workbench / local debug artifacts (never ship)
+.tmp/
+.tmp_*
+.test-*
+.rlog
+.rlog.*
+
+# Local Kairo project state (sessions, secrets)
+.kairo/sessions/
+.kairo/*.env
+.env
+.env.*

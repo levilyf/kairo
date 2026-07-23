@@ -1,0 +1,33 @@
+{
+  "name": "@kairo/app",
+  "version": "0.1.0",
+  "description": "Application composition root for Kairo. Bootstraps ProviderRegistry + Harness + Runtime from an already-loaded KairoConfig. Not part of Core.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@kairo/config": "0.1.0",
+    "@kairo/provider-registry": "0.1.0",
+    "@kairo/core": "0.1.0",
+    "@kairo/provider-openai-compatible": "0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
